@@ -1,0 +1,11 @@
+name: hockey_take_home
+version: "1.0.0"
+config-version: 2
+
+profile: hockey_take_home
+
+model-paths: ["models"]
+
+models:
+  hockey_take_home:
+    +materialized: table
